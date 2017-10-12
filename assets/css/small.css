@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+}
+
+#headline {
+    width: auto;
+    height: 1.5em;
+    background-color: #214F80;
+}
+
+.headlinebutton {
+    float: right;
+    font: 10px arial;
+    color: azure;
+    text-decoration: none;
+    margin: 7px 5px 5px 5px;
+}
+
+.headlinelogo {
+    width: 2.0em;
+    height: 1.5em;
+    margin-right: 0.5em;
+}
+
+#nav {
+    width: auto;
+    height: 2.2em;
+    background-color: #012E55;
+}
+
+.navlogo {
+    width: 130px;
+    height: 130px;
+    margin-left: 2.5em;
+}
+
+.navbutton {
+
+    float: right;
+    color: #70a8d3;
+    font: bold 16px arial;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px 30px 10px 0px;
+
+}
+
+.navbutton:hover {
+    color: #d0dcef;
+}
+
+#wrapper {
+    width: auto;
+    height: 500px;
+    background-image: url("../../images/wrapper.png");
+    background-position: center center;
+}
+
+.wrapperheadding {
+    color: #70a8d3;
+    font: bold 24px arial;
+    text-decoration: none;
+    text-align: Left;
+    /*margin-bottom: 15px;*/
+    /*margin-left: 20px;*/
+}
+
+footer {
+    width: auto;
+    height: 210px;
+    background-color: #012E55;
+}
+
+.footerlogo {
+    float: left;
+    margin: 30px 30px 10px 50px;
+}
+
+.menu {
+    float: left;
+    margin-top: 5px;
+    margin-left: 55px;
+    border-left: solid 1px rgba(255, 255, 255, 0.15);
+    display: inline-block;
+    line-height: 1;
+    padding: 0 0 0 1.5em;
+    font: 13px arial;
+    color: #70a8d3;
+    text-decoration: none;
+}
+
+.footerlink {
+    color: azure;
+    text-decoration: none;
+}
+
+#loginnav {
+    width: auto;
+    height: 130px;
+    background-color: #012E55;
+}
+
+.loginnavlogo {
+    float: left;
+    width: 130px;
+    height: 130px;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    padding-right: 2.5em;
+    border-right: solid 1px azure;
+}
+
+#loginnavtext {
+    font-family: arial;
+    font-style: normal;
+    font-size: 35px;
+    font-weight: normal;
+    color: white;
+    padding: 40px 10px 10px 10px;
+
+}
+
+.loginwrapper {
+    background-color: white;
+    height: 350px;
+}
+
+.loginfieldset {
+    margin: 45px 60px 30px 60px;
+    font-family: arial;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+    border: 2px groove;
+    border-radius: 15px;
+
+}
+
+.logintext {
+    margin: 30px 30px 15px 60px;
+    font-family: arial;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+}
+
+.loginform {
+    /*width: 300px;*/
+    margin: 30px 0 0 60px;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+}
+
+.logintextbox {
+    width: 240px;
+    height: 30px;
+    background-color: floralwhite;
+}
+
+.loginbutton {
+    width: 80px;
+    height: 30px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #27d638;
+    /*padding: 10px 20px 10px 20px;*/
+    text-decoration: none;
+}
+
+.loginbutton:hover {
+    background: #429413;
+    text-decoration: none;
+}
+
+.forget {
+    font-family: arial;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: normal;
+    color: blue;
+    margin-left: 40px;
+}
+

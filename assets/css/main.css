@@ -1,0 +1,470 @@
+body {
+    margin: 0;
+}
+
+#headline {
+    width: auto;
+    height: 1.5em;
+    background-color: #214F80;
+}
+
+.headlinebutton {
+    float: right;
+    font: 10px arial;
+    color: azure;
+    text-decoration: none;
+    margin: 7px 5px 5px 5px;
+}
+
+.headlinelogo {
+    width: 2.0em;
+    height: 1.5em;
+    margin-right: 0.5em;
+}
+
+#nav {
+    width: auto;
+    height: 2.2em;
+    background-color: #012E55;
+}
+
+.navlogo {
+    width: 130px;
+    height: 130px;
+    margin-left: 2.5em;
+}
+
+.navbutton {
+    float: right;
+    color: #70a8d3;
+    font: bold 16px arial;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px 30px 10px 0px;
+}
+
+.navbutton:hover {
+    color: #d0dcef;
+}
+
+#wrapper {
+    width: auto;
+    height: 500px;
+    background-image: url("../../images/wrapper.png");
+    background-position: center center;
+}
+
+.wrapperheadding {
+    color: #70a8d3;
+    font: bold 24px arial;
+    text-decoration: none;
+    text-align: Left;
+    /*margin-bottom: 15px;*/
+    /*margin-left: 20px;*/
+}
+
+footer {
+    width: auto;
+    height: 120px;
+    background-color: #012E55;
+}
+
+.footerlogo {
+    float: left;
+    margin: 30px 30px 10px 50px;
+}
+
+.menu {
+    float: right;
+    margin-right: 50px;
+    margin-top: 30px;
+    border-left: solid 1px white;
+    display: inline-block;
+    line-height: 5;
+    padding: 0 0 0 1.5em;
+    font: 13px arial;
+    color: #70a8d3;
+    text-decoration: none;
+}
+
+.footerlink {
+    color: azure;
+    text-decoration: none;
+}
+
+#loginnav {
+    width: auto;
+    height: 130px;
+    background-color: #012E55;
+}
+
+#login {
+    margin-top: 100px;
+    width: 100px;
+    height: 130px;
+    background-color: #012E55;
+}
+
+.loginnavlogo {
+    float: left;
+    width: 130px;
+    height: 130px;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    padding-right: 2.5em;
+    border-right: solid 1px azure;
+}
+
+#loginnavtext {
+    font-family: arial;
+    font-style: normal;
+    font-size: 35px;
+    font-weight: normal;
+    color: white;
+    padding: 40px 10px 10px 10px;
+
+}
+
+.loginwrapper {
+    background-color: white;
+    height: 350px;
+}
+
+.loginfieldset {
+    margin-top: 45px;
+    margin-right: 100px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+    font-family: arial;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+    border: 2px groove;
+    border-radius: 15px;
+}
+
+.logintext {
+    margin: 10px 30px 15px 60px;
+    font-family: arial;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+}
+
+.loginform {
+    /*width: 300px;*/
+    /*margin: 30px 30px 30px 60px;*/
+    margin-left: 60px;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+}
+
+.logintextbox {
+    width: 240px;
+    height: 30px;
+    background-color: floralwhite;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: normal;
+
+}
+
+.loginbutton {
+    width: 80px;
+    height: 30px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #214F80;
+    text-decoration: none;
+}
+
+.loginbutton:hover {
+    background: #012E55;
+    text-decoration: none;
+}
+
+.forget {
+    font-family: arial;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: normal;
+    color: blue;
+    margin-left: 40px;
+}
+
+.sendbutton {
+    width: 240px;
+    height: 40px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #214F80;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.sendbutton:hover {
+    text-decoration: none;
+    background: #012E55;
+}
+
+.usernav1 {
+    width: auto;
+    height: 130px;
+    background-color: #012E55;
+}
+
+.userwelcome {
+    padding-top: 40px;
+    color: #70a8d3;
+    font: bold 16px arial;
+    text-decoration: none;
+    text-align: right;
+    padding-right: 30px;
+}
+
+#usernav2 {
+
+    height: 28px;
+    background-color: #214F80;
+    font-family: Arial;
+    color: #ffffff;
+    padding-left: 35px;
+}
+
+.studentnav {
+    line-height: 28px;
+    vertical-align: middle;
+    display: table-cell;
+    float: left;
+    width: auto;
+    height: 28px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+    border-right: solid 2px azure;
+    text-decoration: none;
+    color: azure;
+}
+
+.studentnav:hover {
+    background-color: #d0dcef;
+    color: #012E55;
+}
+
+.logoutbutton {
+    line-height: 28px;
+    vertical-align: middle;
+    display: table-cell;
+    float: right;
+    width: auto;
+    height: 28px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #012E55;
+    background-color: #d0dcef;
+}
+
+.logoutbutton:hover {
+    background-color: #214F80;
+    color: azure;
+    border-right: solid 2px aliceblue;
+    border-left: solid 2px aliceblue;
+}
+
+.userwrapper {
+    width: auto;
+    height: 500px;
+    background-color: aliceblue;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.userfieldset {
+    /*height: 100px;*/
+    border-radius: 8px;
+    border-color: #012E55;
+
+}
+.topictable {
+    border: none;
+    border-color: white;
+    margin-left: 5%;
+    margin-top: 30px;
+    margin-right: 5%;
+    width: 90%;
+    border-collapse: collapse;
+}
+.tableheader {
+    background-color: #214F80;
+    font:  16px arial;
+    font-size: 13px;
+    /*font-weight: bold;*/
+    /*border-left: 1px solid #0070A8;*/
+    color: #FFFFFF;
+
+}
+
+.pages {
+    float: right;
+    /*align-content: center;*/
+    /*text-align: center;*/
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#currentpage {
+    float: left;
+    margin-left: 6%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+#nextpage {
+    float: right;
+    float: bottom;
+    margin-top: 15px;
+    margin-right: 6%;
+    margin-bottom: 30px;
+}
+.popupwindow{
+    width:300px;
+    height:220px;
+    opacity:.95;
+    top:40%;
+    left:40%;
+    display:none;
+    position:fixed;
+    border: solid 5px #D0DCF0;
+    border-radius: 10px;
+    overflow:auto
+}
+
+
+.popuphead{
+    height: 40px;
+    background-color: #1E4E82;
+    padding-left: 40px;
+    padding-top: 20px;
+
+}
+.popupheadword{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font: 20px arial;
+    color: azure;
+
+}
+.popupbody{
+    background-color:#012E55;
+    height: 140px;
+    padding-left: 70px;
+    padding-top: 20px;
+}
+.popupbodyform{
+    font: 15px arial;
+    color: azure;
+}
+.popupinput{
+    width: 115px;
+    background-color: #F0F8FF;
+
+}
+.popupbutton{
+    width: 75px;
+    height: 20px;
+    align:center;
+    background-color: #F0F8FF;
+    font: 11px arial;
+    color: #002D56;
+}
+.popupbutton:hover{
+    background-color: #214F80;
+    color: white;
+
+}
+.container{
+    width: 500px;
+    clear: both;
+}
+.container input {
+    width: 100%;
+    clear: both;
+}
+
+.topiclabel{
+    /*width: 100px;*/
+    /*float: left;*/
+}
+.topicinput{
+    /*float: left;*/
+    position: absolute;
+    /*width: 100px;*/
+    left: 280px;
+    /*margin-left: 150px;*/
+    /*align: right*/
+}
+.topiceditform{
+    font-size: 16px;
+    /*border-right: solid 2px azure;*/
+    text-decoration: none;
+    color: Black;
+    padding-left: 60px;
+}
+.search{
+    float: right;
+    margin-right: 5%;;
+}
+.bookbutton{
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+.bookbutton:hover {
+    background-color: #214F80;
+    color: white;
+}
+.searchtext{
+    width: 170px;
+
+}
+.newtopic{
+    float: right;
+    margin-right: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
